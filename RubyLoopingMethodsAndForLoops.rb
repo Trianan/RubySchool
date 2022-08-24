@@ -33,5 +33,3 @@ print "\n"
 m.downto(1) {|i| unless i % 2 == 0 then print i, " " end}
 print "\n"
 
-
-
