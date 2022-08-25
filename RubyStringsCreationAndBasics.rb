@@ -1,14 +1,8 @@
 #!/usr/bin/ruby 
 
-# RUBY STRINGS - CREATION & BASICS:
+require '.\Helpers.rb'
 
-def print_strings(*strings) 
-  vars = ('a'..'z').to_a
-  for i in 0...strings.size
-    print "\t#{vars[i]} = #{strings[i]}\n"
-  end
-  print "\n"
-end
+# RUBY STRINGS - CREATION & BASICS:
 
 # Methods of creating strings:
 a = String.new # Empty string
